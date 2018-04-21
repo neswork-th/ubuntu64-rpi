@@ -68,7 +68,7 @@ sudo chainsx-tools
 |--------|--------|
 | ubuntu-16.04-aarch64-alpha-4.16-kernel(稳定版不支持3b+) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/about-test.md) |
 | ubuntu-16.04-aarch64-beta-4.14-3b-3b+(Alpha测试版，支持3b+)  | [链接](https://pan.baidu.com/s/1l1AeHBrFj3BVSQPM4Ikj3A)|
-| xubuntu-16.04.4-aarch64-beta(带桌面版支持3b+) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/about-desktop-version.md) |
+| ubuntu-lxqt-16.04.4-aarch64-beta(带桌面版支持3b+) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/about-desktop-version.md) |
 
 ##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你提供腾讯云计算对象储存高速下载通道。
 
