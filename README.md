@@ -53,6 +53,13 @@ sudo chainsx-tools
 - [X] bluetooth(蓝牙使用前需要配置)
 - [X] GPIO
 
+## 如何升级到18.04
+
+`sudo apt-get install ubuntu-release-upgrader-core`
+`sudo do-release-upgrade -d`
+
+#### 稍微等一会就会升级到18.04
+
 |  联系方式   |           |
 |-----------|------------|
 |QQ|1396219808(CX_rootfs)|
