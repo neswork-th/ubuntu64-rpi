@@ -1,7 +1,7 @@
-# RaspberryPi3-ubuntu-16.04-aarch64          [English](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04-arm64/README-EN.md)
+# RaspberryPi3-ubuntu-18.04-aarch64    
 ***************
 ####### 插播一段广告。。。。。
-##### [ubuntu-18.04-arm64预览版](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-bonic(18.04)-preview)
+##### [ubuntu-16.04-arm64](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-16.04.3-arm64)
 #### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
 
 ##### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
@@ -15,7 +15,7 @@
 ##### (⬆图为u盘启动实例，可以看到，根目录文件系统为btrfs，挂载于/)
 
 ## 前言：
-#### ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的，对，移植版，ubuntu官方不会直接给支持的），而rpi2都有16.04/17.04/17.10的官方镜像……
+#### ubuntu官方居然不给RaspberrPi3出官方镜像（官方推荐的镜像是Electron752移植的，对，移植版，ubuntu官方不会直接给支持的），而rpi2都有16.04/17.04/17.10/18.04的官方镜像(32位）……
 
 ## 声明：
 * 本系统由我（chainsx）**自行构建**的根目录以及boot。
@@ -31,7 +31,7 @@
 ## 使用说明
 
 
-* 本系统是直接基于ubuntu-Base-16.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升。
+* 本系统是直接基于ubuntu-Base-18.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升。
 * `apt`的源默认为清华软件源
 * **ubuntu官方为bcm2837给了支持**，只不过是以raspi2命名，原因是晚期的raspi2是使用的bcm2837芯片。
 * 默认用户：`ubuntu`      密码：`ubuntu`
@@ -53,13 +53,6 @@ sudo chainsx-tools
 - [X] bluetooth(蓝牙使用前需要配置)
 - [X] GPIO
 
-## 如何升级到18.04
-
-`sudo apt-get install ubuntu-release-upgrader-core`
-
-`sudo do-release-upgrade -d`
-
-#### 稍微等一会就会升级到18.04
 
 |  联系方式   |           |
 |-----------|------------|
@@ -74,10 +67,10 @@ sudo chainsx-tools
 
 | 版本 | 下载链接 |
 |--------|--------|
-| ubuntu-16.04-aarch64-beta-4.14-3b-3b+(lite版不带桌面，支持3b+)  | [链接](https://pan.baidu.com/s/1L-lKPe9Qz74w42izn6Pn_w)|
+| ubuntu-18.04-aarch64-beta-4.14-3b-3b+(lite版不带桌面，支持3b+)  | [链接](https://pan.baidu.com/s/1y7Clm3WIbY2TW0fLE68Ofw)|
 | ubuntu-lxqt-16.04.4-aarch64-beta(带桌面版支持3b+) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/about-desktop-version.md) |
 
-##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你提供腾讯云计算对象储存高速下载通道。
+##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你准备腾讯云计算对象储存高速下载通道。
 
 ## 特别鸣谢
 [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
