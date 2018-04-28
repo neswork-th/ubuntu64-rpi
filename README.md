@@ -56,6 +56,7 @@ sudo chainsx-tools
 ## 如何升级到18.04
 
 `sudo apt-get install ubuntu-release-upgrader-core`
+
 `sudo do-release-upgrade -d`
 
 #### 稍微等一会就会升级到18.04
