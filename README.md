@@ -7,7 +7,8 @@
 ##### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
-# 这里提供一些问题的解决方案[帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
+# [帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
+这里提供一些问题的解决方案
 
 ## 使用说明
 
