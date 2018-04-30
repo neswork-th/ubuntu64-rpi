@@ -26,7 +26,7 @@ sudo raspi-config
 sudo chainsx-tools
 ```
 
-## 关于内核（[maimline4.16内核](https://github.com/chainsx/firmware64-rpi))
+## 关于内核
 
 - [X] wifi
 - [X] bluetooth(蓝牙使用前需要配置)
@@ -35,7 +35,7 @@ sudo chainsx-tools
 
 |  联系方式   |           |
 |-----------|------------|
-|QQ|1396219808(CX_rootfs)|
+|QQ|1396219808(CX_dandelion)|
 |E-mail|chainsx@outlook.com i@chainsx.cn|
 
 **********************
@@ -52,13 +52,10 @@ sudo chainsx-tools
 ##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你准备腾讯云计算对象储存高速下载通道。
 
 ## 特别鸣谢
-[UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
-
-[树莓派基金会](https://www.raspberrypi.org) (提供了开机自动扩容脚本)
-
-[Armbian](https://armbian.com) (提供了chainsx-tools源码)
-
-@ 束发少年 (提供论坛支持)
+#### [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
+#### [树莓派基金会](https://www.raspberrypi.org) (提供了开机自动扩容脚本)
+#### [Armbian](https://armbian.com) (提供了chainsx-tools源码)
+#### @ 束发少年 (提供论坛支持)
  
 # 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
 # 论坛支持https://raspberrypi.party
