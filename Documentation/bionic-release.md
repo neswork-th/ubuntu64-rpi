@@ -4,7 +4,7 @@
 |-----|------|-------|-----|---------|--------|
 | ubuntu | ubuntu-18.04-preinstall-server-armhf-rpi3 | Ryan Finnie | armhf | rpi3b | [链接](https://www.finnie.org/software/raspberrypi/ubuntu-rpi3/ubuntu-18.04-preinstalled-server-armhf+raspi3.img.xz) |
 | ubuntu | ubuntu-18.04-preinstall-server-armhf-rpi2 | ubuntu官方镜像 | armhf | rpi2b | [链接](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/18.04/release/ubuntu-18.04-preinstalled-server-armhf+raspi2.img.xz) |
-| *ubuntu | ubuntu-18.04-core-aarch64-devel-chainsx| chainsx | arm64 | rpi3b/rpi3b+ | [链接]() |
+| * ubuntu | ubuntu-18.04-core-aarch64-devel-chainsx| chainsx | arm64 | rpi3b/rpi3b+ | [链接]() |
 
 如果使用64位系统请选择第三个
 
