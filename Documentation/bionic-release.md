@@ -28,3 +28,6 @@ sudo ddrescue -D -d --force ubuntu.img /dev/mmcblk0
 ### ！！！以上说明仅适用于chainsx构建的系统。
 
 # 支持u盘/硬盘启动
+
+## 附
+### 在arm64开发者预览版中的boot分区的files文件夹提供了已经编译好的64位u-boot，内核设备树，以及uefi启动文件等，如果不需要可以删除。
