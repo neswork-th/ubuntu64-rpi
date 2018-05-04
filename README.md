@@ -39,14 +39,11 @@ sudo chainsx-tools
 
 ## 下载地址：
 
-### 百度网盘(Baidu Netdisk)
-
 | 版本 | 下载链接 |
 |--------|--------|
 | ubuntu-18.04-developer-edition(ubuntu-18.04合集)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
 | ubuntu-lxqt-16.04.4-aarch64-beta(带桌面版支持3b+) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/about-desktop-version.md) |
 
-##### 如果百度云限速的问题你无法解决的话（至少是要下载1h以上的话），请联系我，我会给你准备腾讯云计算对象储存高速下载通道。
 
 ## 特别鸣谢
 ##### [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
