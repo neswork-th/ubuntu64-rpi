@@ -1,11 +1,8 @@
 # RaspberryPi3-ubuntu-18.04-aarch64    
-***************
-######## 插播一段广告。。。。。
-###### [ubuntu-16.04-arm64](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-16.04.3-arm64)
-##### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
-###### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
-###### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
-***************
+
+![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
+
+****************
 
 # [帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
 这里提供一些问题的解决方案
@@ -13,16 +10,12 @@
 ***************
 ## 使用说明
 
-![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
-
-
 * 本系统是直接基于ubuntu-Base-18.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升。
 * `apt`的源默认为清华软件源
 * **ubuntu官方为bcm2837给了支持**，只不过是以raspi2命名，原因是晚期的raspi2是使用的bcm2837芯片。
 * 默认用户：`ubuntu`      密码：`ubuntu`
 * 默认开启ssh，不想要的自己去关。
 * **第一次开机时会自动拓展根目录，然后会自动重启，重启后会配置系统，请耐心等待**。
-* 默认使用清华源，**如果你的树莓派无法解析清华源的地址**(apt时提示404或者卡住不动)，看[这里](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-16.04.3-arm64/Documentation/dns-setting.md)
 * 集成了`raspi-config`,`chainsx-tools`系统集成管理工具，使用方法：
 ```
 sudo raspi-config
@@ -64,3 +57,12 @@ sudo chainsx-tools
 ## 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
 ## 论坛支持https://raspberrypi.party
 ### 感谢 @束发少年 的论坛支持
+
+***************
+######## 插播一段广告。。。。。
+###### [ubuntu-16.04-arm64](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-16.04.3-arm64)
+##### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
+###### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
+###### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
+***************
+
