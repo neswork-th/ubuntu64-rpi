@@ -7,13 +7,13 @@
 ###### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
-![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
-
 # [帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
 这里提供一些问题的解决方案
 
 ***************
 ## 使用说明
+
+![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
 
 
 * 本系统是直接基于ubuntu-Base-18.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升。
