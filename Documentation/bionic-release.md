@@ -21,8 +21,8 @@
 默认开启ssh
 
 # 安装
-### 在windows上使用win32imagewriter
-### 在linux上直接使用dd命令刷入
+### 在windows上使用win32diskimager写入
+### 在linux或mac上直接使用dd命令刷入
 ### ** 通过树莓派现有的系统刷系统 **
 #### example1 : `zcat ubuntu.img.gz | sudo dd bs=4M of=/dev/mmcblk0`
 #### example2 : 
