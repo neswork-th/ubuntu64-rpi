@@ -4,7 +4,7 @@
 
 ****************
 
-# [帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
+# [帮助文档（需要帮助戳这里）](https://github.com/chainsx/ubuntu64-rpi/wiki)
 这里提供一些问题的解决方案
 
 ***************
