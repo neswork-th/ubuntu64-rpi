@@ -7,6 +7,8 @@
 ###### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
+![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
+
 # [帮助文档](https://github.com/chainsx/ubuntu64-rpi/wiki)
 这里提供一些问题的解决方案
 
