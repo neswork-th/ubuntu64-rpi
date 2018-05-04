@@ -1,11 +1,16 @@
 对于树莓派的ubuntu
 ![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
 
-| 系统 | 名称 | 构建者 | 架构 | 适用版本 | 下载链接 |
+### 32位（armhf）:
+| 系统 | 名称 | 构建者 | 架构 | 适用版本 | 链接 |
 |-----|------|-------|-----|---------|--------|
 | ubuntu | ubuntu-18.04-preinstall-server-armhf-rpi3 | Ryan Finnie | armhf | rpi3b | [链接](https://www.finnie.org/software/raspberrypi/ubuntu-rpi3/ubuntu-18.04-preinstalled-server-armhf+raspi3.img.xz) |
 | ubuntu | ubuntu-18.04-preinstall-server-armhf-rpi2 | ubuntu官方镜像 | armhf | rpi2b | [链接](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/18.04/release/ubuntu-18.04-preinstalled-server-armhf+raspi2.img.xz) |
-| * ubuntu | ubuntu-18.04-core-aarch64-devel-chainsx| chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1aNR0U-X6C6dbBbMyy0W6lw) |
+
+### 64位（arm64）：
+| 系统 | 名称 | 构建者 | 架构 | 适用版本 | 百度网盘链接 | 直链下载（github） |
+|----------|-----------------------------------------|---------|-------|--------------|------------|
+| * ubuntu | ubuntu-18.04-core-aarch64-devel-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1aNR0U-X6C6dbBbMyy0W6lw) | | 系统 | https://github.com/chainsx/ubuntu64-rpi/releases/download/ubuntu-18.04-arm64/ubuntu-18.04-server-aarch64-rpi3b-rpi3b-plus-devel-20180505-chainsx.img.xz |
 
 如果使用64位系统请选择第三个
 
