@@ -7,3 +7,4 @@
 | 经编译的linux-4.14内核 | [链接](https://pan.baidu.com/s/1hx6uNQ6nbCgr4yCsN4EWZw) |
 | 经编译的linux-4.16内核 | [链接](https://pan.baidu.com/s/1pSesKYTkBKnKIIwI2lxWJw) |
 
+#### 还有一些文件如u-boot，grub等文件在core版本的boot分区里（/boot/files）。
