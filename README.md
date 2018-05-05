@@ -1,4 +1,4 @@
-# RaspberryPi3-ubuntu-18.04-aarch64    
+# CXCORE-RaspberryPi3-ubuntu-18.04-aarch64    
 
 ![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
 
