@@ -41,7 +41,8 @@ sudo chainsx-tools
 
 | 版本 | 下载链接 |
 |--------|--------|
-| ubuntu-18.04-developer-edition(ubuntu-18.04合集)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
+| ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
+| cxcore系统核心(kernel,firmware,bootloader.....) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/cxcore-sdk.md) |
 
 ## 特别鸣谢
 ##### [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
