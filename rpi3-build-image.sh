@@ -1,29 +1,18 @@
 #!/bin/sh
 
-########################################################################
-# rpi2-build-image
-# Copyright (C) 2015 Ryan Finnie <ryan@finnie.org>
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of the GNU General Public License
-# as published by the Free Software Foundation; either version 2
-# of the License, or (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-########################################################################
+# powered by chainsx.
+# Do Not Use This Util I Finish This Scipt File.
+# And The RPi2 Buid Scipt Is Available.
+
+echo "Do Not Use This Util I Finish This Scipt File."
+echo "And The RPi2 Buid Scipt Is Available."
+
 
 set -e
 set -x
 
-RELEASE=trusty
-BASEDIR=/srv/rpi2/${RELEASE}
+RELEASE=bionic
+BASEDIR=/srv/rpi3/${RELEASE}
 BUILDDIR=${BASEDIR}/build
 # I use a local caching proxy to save time/bandwidth; in this mode, the
 # local mirror is used to download almost everything, then the standard
@@ -46,7 +35,7 @@ apt-get -y install ubuntu-keyring
 if [ -n "$LOCAL_MIRROR" ]; then
   debootstrap $RELEASE $R $LOCAL_MIRROR
 else
-  debootstrap $RELEASE $R http://ports.ubuntu.com/
+  debootstrap $RELEASE $R http://cn.ports.ubuntu.com/
 fi
 
 # Mount required filesystems
@@ -70,23 +59,23 @@ deb ${LOCAL_MIRROR} ${RELEASE}-backports main restricted universe multiverse
 EOM
 else
   cat <<EOM >$R/etc/apt/sources.list
-deb http://ports.ubuntu.com/ ${RELEASE} main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ ${RELEASE} main restricted universe multiverse
 # deb-src http://ports.ubuntu.com/ ${RELEASE} main restricted universe multiverse
 
-deb http://ports.ubuntu.com/ ${RELEASE}-updates main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ ${RELEASE}-updates main restricted universe multiverse
 # deb-src http://ports.ubuntu.com/ ${RELEASE}-updates main restricted universe multiverse
 
-deb http://ports.ubuntu.com/ ${RELEASE}-security main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ ${RELEASE}-security main restricted universe multiverse
 # deb-src http://ports.ubuntu.com/ ${RELEASE}-security main restricted universe multiverse
 
-deb http://ports.ubuntu.com/ ${RELEASE}-backports main restricted universe multiverse
+deb http://cn.ports.ubuntu.com/ ${RELEASE}-backports main restricted universe multiverse
 # deb-src http://ports.ubuntu.com/ ${RELEASE}-backports main restricted universe multiverse
 EOM
 fi
 chroot $R apt-get update
 chroot $R apt-get -y -u dist-upgrade
 
-# Install the RPi PPA
+# Install the RPi2/3 PPA
 cat <<"EOM" >$R/etc/apt/preferences.d/rpi2-ppa
 Package: *
 Pin: release o=LP-PPA-fo0bar-rpi2
@@ -101,7 +90,7 @@ chroot $R apt-add-repository -y ppa:fo0bar/rpi2
 chroot $R apt-get update
 
 # Standard packages
-chroot $R apt-get -y install ubuntu-standard initramfs-tools raspberrypi-bootloader-nokernel rpi2-ubuntu-errata language-pack-en
+chroot $R apt-get -y install ubuntu-standard initramfs-tools raspberrypi-bootloader-nokernel language-pack-en
 
 # Kernel installation
 # Install flash-kernel last so it doesn't try (and fail) to detect the
