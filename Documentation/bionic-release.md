@@ -13,7 +13,7 @@
 | ubuntu | ubuntu-18.04-core-aarch64-devel-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1aNR0U-X6C6dbBbMyy0W6lw) | [链接](https://github.com/chainsx/ubuntu64-rpi/releases/download/ubuntu-18.04-arm64/ubuntu-18.04-server-aarch64-rpi3b-rpi3b-plus-devel-20180505-chainsx.img.xz) |
 
 
-如果使用64位lite系统请选择第三个，如果你需要图形界面的选择第四个。
+如果使用64位lite系统请选择第三个。
 
 默认用户：`ubuntu`
 
