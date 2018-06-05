@@ -1,4 +1,11 @@
 #!/bin/sh
-echo 'wget rootfs'
-wget -O rootfs.tar.gz http://cdimage.ubuntu.com/ubuntu-base/releases/16.04.4/release/ubuntu-base-16.04.3-base-arm64.tar.gz
-tar -zxvf rootfs.tar.gz
+echo "Step1 Start..."
+mkdir build
+cd build
+echo "prepare rootfs"
+sudo apt-get install debootstrap
+sudo mkdir rootfs
+sudo debootstrap --arch arm64 bonic rootfs
+chroot rootfs apt-get update
+echo "Prepare To Start Step2...."
+sudo bash ../step2.sh
