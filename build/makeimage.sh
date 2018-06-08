@@ -22,3 +22,5 @@ sudo umount /mnt/boot
 sudo umount /mnt
 sudo sync
 sudo kpartx -d image.img
+
+sudo mv image.img ubuntu-18.04-aarch64-raspberrypi.img
