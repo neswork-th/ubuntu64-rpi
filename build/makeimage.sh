@@ -7,8 +7,11 @@ sudo parted image.img --script -- mkpart primary fat32 8192s 2682879s
 sudo parted image.img --script -- mkpart primary ext4 2682880s -1
 
 sudo kpartx image.img
-partBoot= $(ls /dev/mapper | grep p1)
-partRoot= $(ls /dev/mapper | grep p2)
+R= /dev/mapper/
+partBoot1= $(ls /dev/mapper | grep p1)
+partRoot1= $(ls /dev/mapper | grep p2)
+partBoot= $R$partBoot1
+partRoot= $R$partRoot1
 sudo mkfs.vfat $partBoot
 sudo mkfs.ext4 $partRoot
 sudo mount $partRoot /mnt
