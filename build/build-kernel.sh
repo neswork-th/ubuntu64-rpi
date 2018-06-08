@@ -1,6 +1,5 @@
 #!/bin/sh
-wget https://github.com/raspberrypi/linux/archive/rpi-4.11.y.zip
-unzip rpi*
-cd linux*
-make bcmrpi3_defconfig CROSS_COMPILE=aarch64-linux-gnu-
-make -j4 ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu-
+sudo git clone --depth=1 -b rpi-4.14.y https://github.com/raspberrypi/linux.git
+cd linux
+make ARCH=arm64 bcmrpi3_defconfig
+make ARCH=arm64 -j4
