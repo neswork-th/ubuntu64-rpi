@@ -50,7 +50,7 @@ sudo chainsx-tools
 
 **********************
 
-## 下载地址：
+## 预构建版本下载地址：
 ### Download Link.
 
 | 版本Version | 下载链接Download link |
