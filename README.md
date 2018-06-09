@@ -30,6 +30,11 @@ sudo raspi-config
 sudo chainsx-tools
 ```
 
+## 自行构建
+### You can built by yourself.
+
+### [Build documentation](https://github.com/chainsx/ubuntu64-rpi/wiki/Build-by-yourself)
+
 ## 关于内核
 ### About kernel.
 
