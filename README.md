@@ -4,18 +4,26 @@
 
 ****************
 
-# [帮助文档（需要帮助戳这里）](https://github.com/chainsx/ubuntu64-rpi/wiki)
-这里提供一些问题的解决方案
+# [帮助文档 Help documentation （需要帮助戳这里If you need help）](https://github.com/chainsx/ubuntu64-rpi/wiki)
+#### 这里提供一些问题的解决方案
+##### Here are some solutions of some problems.
 
 ***************
 ## 使用说明
+### Instructions
 
-* 本系统是直接基于ubuntu-Base-18.04-arm64构建的根目录， **非移植版** ，所以稳定性有提升。
+* 本系统是直接基于ubuntu-Base-18.04-arm64构建的根目录，所以稳定性有提升。
+##### This system based on ubuntu-Base-18.04.
 * `apt`的源默认为清华软件源
-* 默认用户：`ubuntu`      密码：`ubuntu`
+##### Default software sources : Tsinghua university tuna software source.
+* 默认用户：`ubuntu`      密码：`ubuntu`
+##### Default user: `ubuntu`.   Default password: `ubuntu`.
 * 默认开启ssh，不想要的自己去关。
+##### Open SSH by default, if you do not want, you can disable it.
 * **第一次开机时会自动拓展根目录，然后会自动重启，重启后会配置系统，请耐心等待**。
+##### This system will auto-expand rootfs at first boot, please be patient.
 * 集成了`raspi-config`,`chainsx-tools`系统集成管理工具，使用方法：
+##### There are two configure tools, you can use the following commands.
 ```
 sudo raspi-config
 
@@ -23,9 +31,10 @@ sudo chainsx-tools
 ```
 
 ## 关于内核
+### About kernel.
 
 - [X] wifi
-- [X] bluetooth(蓝牙使用前需要配置)
+- [X] bluetooth(蓝牙使用前需要配置。Bluetooth shuld configure before using)
 - [X] GPIO
 
 
@@ -37,8 +46,9 @@ sudo chainsx-tools
 **********************
 
 ## 下载地址：
+### Download Link.
 
-| 版本 | 下载链接 |
+| 版本Version | 下载链接Download link |
 |--------|--------|
 | ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
 | cxcore系统核心(kernel,firmware,bootloader.....) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/cxcore-sdk.md) |
