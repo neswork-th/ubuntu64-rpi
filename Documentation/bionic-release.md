@@ -10,7 +10,7 @@
 ### 64位（arm64）：
 | 系统 | 名称 | 构建者 | 架构 | 适用版本 | 百度网盘链接 | 直链下载（github） |
 |-----|-----|-------|------|---------|------------|-----------------|
-| ubuntu | ubuntu-18.04-minimal-aarch64-stable-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1aNR0U-X6C6dbBbMyy0W6lw) | [链接](https://github.com/chainsx/ubuntu64-rpi/releases/download/ubuntu-18.04-arm64/ubuntu-18.04-server-aarch64-rpi3b-rpi3b-plus-devel-20180505-chainsx.img.xz) |
+| ubuntu | ubuntu-18.04-minimal-aarch64-stable-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1aNR0U-X6C6dbBbMyy0W6lw) | [链接](https://github.com/chainsx/ubuntu64-rpi/releases/download/ubuntu-18.04-arm64/ubuntu-18.04-server-aarch64-rpi3b-rpi3b-plus-stable-20180505-chainsx.img.xz) |
 | ubuntu | ubuntu-18.04-minimal-aarch64-devel-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1GQtcBIOKGYW1KFZ3QJbyXQ) | [链接](https://github.com/chainsx/ubuntu64-rpi/releases/download/ubuntu-18.04-arm64/cxcore-ubuntu-18.04-minimal-aarch64-raspi3b-raspi3b-plus-devel-20180630-chainsx.img.xz) |
 
 
