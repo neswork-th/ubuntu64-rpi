@@ -1,6 +1,6 @@
 # CXCORE-RaspberryPi3-ubuntu-18.04-aarch64    
 
-![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
+![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/Screenshot_20180630-113710-1.jpg)
 
 ****************
 
@@ -55,8 +55,8 @@ sudo chainsx-tools
 
 | 版本Version | 下载链接Download link |
 |--------|--------|
-| ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
-| cxcore系统核心(kernel,firmware,bootloader.....) | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/cxcore-sdk.md) |
+| ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
+
 
 ## 特别鸣谢
 ##### [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
