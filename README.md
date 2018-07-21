@@ -1,5 +1,7 @@
 # CXCORE-RaspberryPi3-ubuntu-18.04-aarch64    
 
+## 3b+有线网络暂时不能使用(无线可以用），3b没有问题。
+
 ![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/Screenshot_20180630-113710-1.jpg)
 
 ****************
