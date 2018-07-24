@@ -82,4 +82,4 @@ sudo chainsx-tools
 
 项目的完善需要您的支持，如果你觉得这个项目好，那就支持一个。
 
-![Mou icon](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/alipay.jpg =200x300)
+![Mou icon](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/alipay.jpg)
