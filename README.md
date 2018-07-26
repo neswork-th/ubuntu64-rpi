@@ -67,7 +67,7 @@ sudo chainsx-tools
 ##### @ 束发少年 (提供论坛支持)
  
 ## 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
-## 论坛支持https://raspberrypi.party
+## 论坛支持https://raspberrypi.club
 ### 感谢 @束发少年 的论坛支持
 
 ***************
