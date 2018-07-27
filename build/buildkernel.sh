@@ -1,6 +1,4 @@
 #!/bin/sh
-S= $(pwd)
-cd $S
 sudo git clone --depth=1 -b rpi-4.14.y https://github.com/raspberrypi/linux.git
 cd linux
 make ARCH=arm64 bcmrpi3_defconfig
@@ -15,3 +13,5 @@ sudo cp arch/arm64/boot/dts/broadcom/bcm* $S/boot
 
 touch $S/boot/config.txt
 echo "kernel=kernel8.img" >> $S/boot/config.txt
+
+rm -rf linux
