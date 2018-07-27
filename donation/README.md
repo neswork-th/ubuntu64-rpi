@@ -9,4 +9,4 @@
 
 每次发布的更新（预构建系统），都是构建后经测试才发布的，而且我也在尽量添加各种支持。
 
-! [Mou icon](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/alipay.jpg)
+![Mou icon](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/alipay.jpg)
