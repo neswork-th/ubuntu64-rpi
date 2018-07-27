@@ -57,7 +57,11 @@ sudo chainsx-tools
 |--------|--------|
 | ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
 
+***********
+
 ## [捐赠](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/donation/README.md)
+
+**********
 
 ## 特别鸣谢
 ##### [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
