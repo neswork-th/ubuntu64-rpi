@@ -1,7 +1,5 @@
 # CXCORE-RaspberryPi3-ubuntu-18.04-aarch64    
 
-## 3b+有线网络暂时不能使用(无线可以用），3b没有问题。
-
 ![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/Screenshot_20180630-113710-1.jpg)
 
 ****************
@@ -59,6 +57,7 @@ sudo chainsx-tools
 |--------|--------|
 | ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
 
+## [捐赠](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/donation/README.md)
 
 ## 特别鸣谢
 ##### [UMRnInside](https://github.com/UMRnInside)（提供了开机自动扩容方法)
