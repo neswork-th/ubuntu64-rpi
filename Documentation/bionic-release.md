@@ -1,11 +1,5 @@
-对于树莓派的ubuntu
-![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
 
-### 32位（armhf）:
-| 系统 | 名称 | 构建者 | 架构 | 适用版本 | 链接 |
-|-----|------|-------|-----|---------|--------|
-| ubuntu | ubuntu-18.04-preinstall-server-armhf-rpi3 | Ryan Finnie | armhf | rpi3b | [链接](https://www.finnie.org/software/raspberrypi/ubuntu-rpi3/ubuntu-18.04-preinstalled-server-armhf+raspi3.img.xz) |
-| ubuntu | ubuntu-18.04-preinstall-server-armhf-rpi2 | ubuntu官方镜像 | armhf | rpi2b | [链接](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-cdimage/ubuntu/releases/18.04/release/ubuntu-18.04-preinstalled-server-armhf+raspi2.img.xz) |
+![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
 
 ### 64位（arm64）：
 | 系统 | 名称 | 构建者 | 架构 | 适用版本 | 百度网盘链接 | 直链下载（github） |
