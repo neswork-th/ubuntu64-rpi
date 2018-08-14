@@ -31,5 +31,8 @@ sudo ddrescue -D -d --force ubuntu.img /dev/mmcblk0
 
 ## 附
 ### 在arm64开发者预览版中的boot分区的files文件夹提供了已经编译好的64位u-boot，内核设备树，以及uefi启动文件等，如果不需要可以删除。
+## 想使用声卡的注意了
+### 如果aplay -l找不到声卡，在/boot/config.txt文件中改成dtparam=i2c_arm=on,audio=on就可以使用声卡了，raspi-config 配置命令无法配置声卡
+
 
 # [捐赠](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/donation/README.md)
