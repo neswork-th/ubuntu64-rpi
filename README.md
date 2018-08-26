@@ -1,6 +1,7 @@
 # CXCORE-RaspberryPi3-ubuntu-18.04-aarch64    
 
-![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/Screenshot_20180630-113710-1.jpg)
+![example1](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/imagine/Screenshot_2018-08-26-20-59-13.png)
+^这里说一下，树莓派系统就要有树莓派系统的样子，/proc/cpuinfo里连cpu信息都没有的系统叫什么系统（如图是针对树莓派cpu信息优化之后的信息）。
 
 ****************
 
