@@ -4,7 +4,7 @@
 echo "prepare rootfs"
 sudo apt-get install debootstrap -y
 sudo mkdir $S/rootfs
-sudo debootstrap --arch arm64 bonic $S/rootfs
+sudo debootstrap --arch arm64 bionic $S/rootfs
 cp -b /etc/resolv.conf $S/rootfs/etc
 chroot $S/rootfs apt-get update
 chroot $S/rootfs apt-get upgrade
