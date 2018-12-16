@@ -60,6 +60,7 @@ sudo chainsx-tools
 
 ***********
 
+![donate](https://github.com/chainsx/ubuntu64-rpi/raw/ubuntu-18.04-arm64/donation/1544928605353-1.jpg)
 # [捐赠](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/donation/README.md)
 
 **********
