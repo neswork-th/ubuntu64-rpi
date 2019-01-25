@@ -23,4 +23,7 @@ sudo umount /mnt
 sudo sync
 sudo kpartx -d image.img
 
+sudo parted -s image.img -- toggle 1 lba
+sudo parted -s image.img -- toggle 1 boot
+
 sudo mv image.img ubuntu-18.04-aarch64-raspberrypi.img
