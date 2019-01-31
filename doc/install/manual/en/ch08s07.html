@@ -1,0 +1,196 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>8.7. Recovering a Broken System</title>
+<link rel="stylesheet" type="text/css" href="install.css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="Ubuntu Installation Guide">
+<link rel="up" href="ch08.html" title="Chapter 8. Next Steps and Where to Go From Here">
+<link rel="prev" href="ch08s06.html" title="8.6. Compiling a New Kernel">
+<link rel="next" href="apa.html" title="Appendix A. Installation Howto">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<div class="navheader">
+<table width="100%" summary="Navigation header">
+<tr><th colspan="3" align="center">8.7. Recovering a Broken System</th></tr>
+<tr>
+<td width="20%" align="left">
+<a accesskey="p" href="ch08s06.html"><img src="images/prev.png" alt="Prev"></a> </td>
+<th width="60%" align="center">Chapter 8. Next Steps and Where to Go From Here</th>
+<td width="20%" align="right"> <a accesskey="n" href="apa.html"><img src="images/next.png" alt="Next"></a>
+</td>
+</tr>
+</table>
+<hr>
+</div>
+<div class="sect1">
+<div class="titlepage"><div><div><h2 class="title">
+<a name="rescue"></a>8.7. Recovering a Broken System</h2></div></div></div>
+<p>
+
+Sometimes, things go wrong, and the system you've carefully installed is no
+longer bootable. Perhaps the boot loader configuration broke while trying
+out a change, or perhaps a new kernel you installed won't boot, or perhaps
+cosmic rays hit your disk and flipped a bit in
+<code class="filename">/sbin/init</code>. Regardless of the cause, you'll need to
+have a system to work from while you fix it, and rescue mode can be useful
+for this.
+
+</p>
+<p>
+
+There are several options to rescue a broken Ubuntu system on arm64:
+
+</p>
+<div class="itemizedlist"><ul class="itemizedlist" type="disc">
+<li class="listitem">
+<p>
+
+
+To access rescue mode, select <strong class="userinput"><code>rescue</code></strong> from the
+boot menu (if available) or append the boot parameter <strong class="userinput"><code>rescue</code></strong>
+or <strong class="userinput"><code>systemd.unit=emergency.target</code></strong>
+to the <span class="guimenuitem">linux</span> kernel boot entry of the boot loader.
+
+</p>
+<p>
+
+While booting the system enter the boot loader menu:
+
+</p>
+<div class="informalexample"><pre class="screen">
+                             GNU GRUB  version 2.02
+
+ *Ubuntu
+  Advanced options for Ubuntu
+
+
+      Use the ↑ and ↓ keys to select which entry is highlighted.
+      Press enter to boot the selected OS, 'e' to edit the commands
+      before booting or 'c' for a command-line.
+</pre></div>
+<p>
+
+Then type <span class="command"><strong>e</strong></span> to edit the boot loader configuration and entries,
+navigate to your prefered Linux kernel line and append either
+<strong class="userinput"><code>rescue</code></strong> or <strong class="userinput"><code>systemd.unit=emergency.target</code></strong>.
+
+</p>
+<div class="informalexample"><pre class="screen">
+                             GNU GRUB  version 2.02
+
+                 insmod ext2                                                 
+                 set root='hd0,gpt2'or Ubuntu                                
+                 if [ x$feature_platform_search_hint = xy ]; then            
+                   search --no-floppy --fs-uuid --set=root --hint-bios=hd0,g\
+ pt2 --hint-efi=hd0,gpt2 --hint-baremetal=ahci0,gpt2  ea967ae0-7519-11eB-85b\
+ d-5254008bdef4                                                              
+                 else                                                        
+                   search --no-floppy --fs-uuid --set=root ea967ae0-7519-11e\
+ 8-85bd-5254008bdef4                                                         
+                 fi                                                          
+                 echo        'Loading Linux 4.15.0-23-generic ...'           
+                 linux        /boot/vmlinuz-4.15.0-23-generic root=UUID=ea96\
+ 7ae0-7519-11eB-85bd-5254008bdef4 ro  maybe-ubiquity rescue                  
+
+      Minimum Emacs-like screen editing is supported. TAB lists
+      completions. Press Ctrl-x or F10 to boot, Ctrl-c or F2 for
+      a command-line or ESC to discard edits and return to the GRUB menu.
+</pre></div>
+<p>
+
+Then press either Ctrl-x or F10 to boot with the modified entry
+and the system will enter the rescue mode.
+
+</p>
+<div class="informalexample"><pre class="screen">
+...
+[  OK  ] Started Update UTMP about System Runlevel Changes.
+You are in rescue mode. After logging in, type "journalctl -xb" to view
+system logs, "systemctl reboot" to reboot, "systemctl default" or "exit"
+to boot into default mode.
+Press Enter for maintenance
+(or press Control-D to continue):
+root@ubuntu:~#
+</pre></div>
+<p>
+
+</p>
+</li>
+<li class="listitem">
+<p>
+
+
+Alternatively the installer can be booted with the <strong class="userinput"><code>rescue=true</code></strong> boot parameter. 
+You'll be shown the first few screens of the installer, with a note in the
+corner of the display to indicate that this is rescue mode, not a full
+installation. Don't worry, your system is not about to be overwritten!
+Rescue mode simply takes advantage of the hardware detection
+facilities available in the installer to ensure that your disks,
+network devices, and so on are available to you while repairing your system.
+
+</p>
+<p>
+
+</p>
+</li>
+<li class="listitem">
+<p> 
+
+A trivial option is to just boot the standard installation kernel and initrd without any additional kernel parameter, and select from the inital screen the <span class="guimenuitem">Start shell</span> entry.
+
+</p>
+<div class="informalexample"><pre class="screen">
+                             [!!] Configuring d-i
+                                                                              
+   This is the network console for the Debian installer. From here, you       
+   may start the Debian installer, or execute an interactive shell.           
+                                                                              
+   To return to this menu, you will need to log in again.                     
+                                                                              
+   Network console option:                                                    
+                                                                              
+                      Start installer                                         
+                      Start installer (expert mode)                           
+                      Start shell                                             
+</pre></div>
+<p>
+
+The functionality in the <code class="classname">debian-installer</code> shell is limited, however, it can still act as a rescue system to fix a broken installation.
+While not using the rescue mode, be careful to not accidentially repartition or format any disk which may cause data loss.
+
+</p>
+</li>
+</ul></div>
+<p>
+
+In either case, after you exit the shell, the system will reboot.
+
+</p>
+<p>
+
+Finally, note that repairing broken systems can be difficult, and this
+manual does not attempt to go into all the things that might have gone wrong
+or how to fix them. If you have problems, consult an expert.
+
+</p>
+</div>
+<div class="navfooter">
+<hr>
+<table width="100%" summary="Navigation footer">
+<tr>
+<td width="40%" align="left">
+<a accesskey="p" href="ch08s06.html"><img src="images/prev.png" alt="Prev"></a> </td>
+<td width="20%" align="center"><a accesskey="u" href="ch08.html"><img src="images/up.png" alt="Up"></a></td>
+<td width="40%" align="right"> <a accesskey="n" href="apa.html"><img src="images/next.png" alt="Next"></a>
+</td>
+</tr>
+<tr>
+<td width="40%" align="left" valign="top">8.6. Compiling a New Kernel </td>
+<td width="20%" align="center"><a accesskey="h" href="index.html"><img src="images/home.png" alt="Home"></a></td>
+<td width="40%" align="right" valign="top"> Appendix A. Installation Howto</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

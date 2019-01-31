@@ -1,0 +1,43 @@
+Origin: Ubuntu
+Label: Ubuntu
+Suite: bionic
+Version: 18.04
+Codename: bionic
+Date: Thu, 26 Apr 2018 23:37:48 UTC
+Architectures: arm64
+Components: main restricted
+Description: Ubuntu Bionic 18.04
+Acquire-By-Hash: yes
+MD5Sum:
+ e62ff0123a74adfc6903d59a449cbdb0       40 restricted/debian-installer/binary-arm64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e        0 restricted/debian-installer/binary-arm64/Packages
+ fb7502c29df48d8fa9c03dd03dbddaa9      102 restricted/binary-arm64/Release
+ e62ff0123a74adfc6903d59a449cbdb0       40 restricted/binary-arm64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e        0 restricted/binary-arm64/Packages
+ 6fc5e00d800dd03a0a916f985ebcdfd8    62470 main/debian-installer/binary-arm64/Packages.gz
+ 9b3020c89a04dc6a231c13b33726c6a3   200038 main/debian-installer/binary-arm64/Packages
+ 5dd0ca3d1cbce6d2a74fcc3e1634ac12       96 main/binary-arm64/Release
+ 1c305ab876fad738a5a03ee53eb8b9c9   516663 main/binary-arm64/Packages.gz
+ ef29d8bf84b2b989b6b2bbcf88b01653  1716572 main/binary-arm64/Packages
+SHA1:
+ e3f4c61a216c2c9613cd3bdd1420dde095b296b3       40 restricted/debian-installer/binary-arm64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709        0 restricted/debian-installer/binary-arm64/Packages
+ 2fa5d2d44481468709df31df8df53928cc7c2de1      102 restricted/binary-arm64/Release
+ e3f4c61a216c2c9613cd3bdd1420dde095b296b3       40 restricted/binary-arm64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709        0 restricted/binary-arm64/Packages
+ 36960f7f6291e01d0f0d0b75c33ec0b0275ccbea    62470 main/debian-installer/binary-arm64/Packages.gz
+ d4d9febcd9d3edab982a6ecde3b507352e134726   200038 main/debian-installer/binary-arm64/Packages
+ ddc07d80ec5b3a2b11a4d8f01d3afaec1ae5892c       96 main/binary-arm64/Release
+ aeb93f6a2f5167e7c66d4e144069c2a3b3e6bc84   516663 main/binary-arm64/Packages.gz
+ b2765a833bb3ea665def2136758e399e74f00e95  1716572 main/binary-arm64/Packages
+SHA256:
+ e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4       40 restricted/debian-installer/binary-arm64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 restricted/debian-installer/binary-arm64/Packages
+ 3bec55c1aae41576f638c2104d6c90f1ccd8f2598f025c15e3dc04a8921f6722      102 restricted/binary-arm64/Release
+ e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4       40 restricted/binary-arm64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855        0 restricted/binary-arm64/Packages
+ 73157b9de5ce29ea073a28cb72098129048e1b84e0d19c0ad9e6f0b24ea341b5    62470 main/debian-installer/binary-arm64/Packages.gz
+ f4d34d31bb7a5eced4d6cda3df9159b42697a43f787045188921f5ff7f974c1b   200038 main/debian-installer/binary-arm64/Packages
+ b270e3cabc2180f875b5fc435dd26da862e52baaa8f7c18a7f3a1613b0341e6b       96 main/binary-arm64/Release
+ d351e1a08204e1bdf11c78be20fa5e08cdbbbb386d36c56cc45cc0088a20fe54   516663 main/binary-arm64/Packages.gz
+ dd5fbdc4957eacaa82ce8152142f05ab1dd8610fa9dd10a050dc2b9f8c583ea3  1716572 main/binary-arm64/Packages
