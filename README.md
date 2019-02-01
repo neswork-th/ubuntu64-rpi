@@ -10,44 +10,19 @@
 ##### Here are some solutions of some problems.
 
 ***************
-## 使用说明
-### Instructions
 
-* 本系统是直接基于ubuntu-Base-18.04-arm64构建的根目录，所以稳定性有提升。
-##### This system based on ubuntu-Base-18.04.
-* `apt`的源默认为清华软件源
-##### Default software sources : Tsinghua university tuna software source.
-* 默认用户：`ubuntu`      密码：`ubuntu`
-##### Default user: `ubuntu`.   Default password: `ubuntu`.
-* 默认开启ssh，不想要的自己去关。
-##### Open SSH by default, if you do not want, you can disable it.
-* **第一次开机时会自动拓展根目录，然后会自动重启，重启后会配置系统，请耐心等待**。
-##### This system will auto-expand rootfs at first boot, please be patient.
-* 集成了`raspi-config`,`chainsx-tools`系统集成管理工具，使用方法：
-##### There are two configure tools, you can use the following commands.
-```
-sudo raspi-config
-
-sudo chainsx-tools
-```
-
-## 自行构建
+## 通过自行构建
 ### You can built by yourself.
 
 ### [Build documentation](https://github.com/chainsx/ubuntu64-rpi/wiki/Build-by-yourself)
 
-## 关于内核
-### About kernel.
+## 通过自行引导官方iso来进行安装
 
-- [X] wifi
-- [X] bluetooth(蓝牙使用前需要配置。Bluetooth shuld configure before using)
-- [X] GPIO
+`curl https://github.com/chainsx/RPi-BOOTISO/raw/master/build.sh | bash`
+
+然后像使用NOOBS一样启动安装（不要忘了复制隐藏目录.disk）。
 
 
-|  联系方式   |           |
-|-----------|------------|
-|QQ|1396219808(CX_dandelion)|
-|E-mail|chainsx@outlook.com i@chainsx.cn|
 
 **********************
 
@@ -77,9 +52,8 @@ sudo chainsx-tools
 
 ***************
 ######## 插播一段广告。。。。。
-###### [ubuntu-16.04-arm64](https://github.com/chainsx/ubuntu64-rpi/tree/ubuntu-16.04.3-arm64)
 ##### [最新版mainline(4.16)内核（适用于所有树莓派3系统）](https://github.com/chainsx/firmware64-rpi)
 ###### [64位centos戳这里(做服务器建议使用此版本)](https://github.com/chainsx/centos64-rpi)
-###### [64位debian(非pi64)](https://github.com/UMRnInside/RPi-arm64)
+###### [64位debian(UMRnInside版)](https://github.com/UMRnInside/RPi-arm64)
 ***************
 
