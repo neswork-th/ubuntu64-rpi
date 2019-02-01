@@ -31,7 +31,7 @@
 
 | 版本Version | 下载链接Download link |
 |--------|--------|
-| ubuntu-18.04-developer-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/ubuntu-18.04-arm64/Documentation/bionic-release.md)|
+| ubuntu-18.04-raspi3-arm64-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/build/Documentation/bionic-release.md)|
 
 ***********
 
@@ -46,7 +46,7 @@
 ##### [Armbian](https://armbian.com) (提供了chainsx-tools源码)
 ##### @ 束发少年 (提供论坛支持)
  
-## 欢迎加入树莓派64位系统交流群，QQ群号码：697381661
+## 欢迎加入树莓派64位系统交流2群，群号码：960694820
 ## 论坛支持https://raspberrypi.club
 ### 感谢 @束发少年 的论坛支持
 
