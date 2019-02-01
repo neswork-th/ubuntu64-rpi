@@ -6,12 +6,24 @@
 |-----|-----|------|---------|-----------|
 | ubuntu  | ubuntu-18.04-prebuild-aarch64-stable-final-chainsx| arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1DGwnebLDMRtmTJf8mlWYog) 提取码:18cy  |
 
+## 使用说明
 
 默认用户：`ubuntu`
 
 默认用户密码：`ubuntu`
 
 默认开启ssh
+
+
+* **第一次开机时会自动拓展根目录，然后会自动重启，重启后会配置系统，请耐心等待**。
+
+* 集成了`raspi-config`,`chainsx-tools`系统管理工具，使用方法：
+
+```
+sudo raspi-config
+
+sudo chainsx-tools
+```
 
 # 安装
 ### 在windows上使用win32diskimager写入
