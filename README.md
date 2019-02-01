@@ -20,18 +20,23 @@
 
 `curl https://github.com/chainsx/RPi-BOOTISO/raw/master/build.sh | bash`
 
+
 然后像使用NOOBS一样启动安装（不要忘了复制隐藏目录.disk）。
 
 
 
 **********************
 
-# 预构建版本下载地址：
+# 预构建版本（开箱即用）下载地址：
 ### Download Link.
 
 | 版本Version | 下载链接Download link |
 |--------|--------|
 | ubuntu-18.04-raspi3-arm64-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/build/Documentation/bionic-release.md)|
+
+## 安装文件（需要安装）下载
+到release里下载，[或者](https://github.com/chainsx/ubuntu64-rpi/archive/ubuntu-18.04-arm64.zip)
+
 
 ***********
 
