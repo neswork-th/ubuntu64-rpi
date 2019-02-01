@@ -34,8 +34,9 @@
 |--------|--------|
 | ubuntu-18.04-raspi3-arm64-edition(ubuntu-18.04系统下载)  | [链接](https://github.com/chainsx/ubuntu64-rpi/blob/build/Documentation/bionic-release.md)|
 
-## 安装文件（需要安装）下载
-到release里下载，[或者](https://github.com/chainsx/ubuntu64-rpi/archive/ubuntu-18.04-arm64.zip)
+# 自行安装版本（需要安装）下载
+
+[下载本分支](https://github.com/chainsx/ubuntu64-rpi/archive/ubuntu-18.04-arm64.zip)
 
 
 ***********
