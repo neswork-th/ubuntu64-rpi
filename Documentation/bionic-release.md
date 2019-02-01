@@ -2,9 +2,9 @@
 ![example1](https://assets.ubuntu.com/v1/c037fd75-ubuntu-logo.png)
 
 ### 64位（arm64）：
-| 系统 | 名称 | 构建者 | 架构 | 适用版本 | 百度网盘链接 | 直链下载（github） |
+| 系统 | 名称 | 构建者 | 架构 | 适用版本 | 百度网盘链接  |
 |-----|-----|-------|------|---------|------------|-----------------|
-| ubuntu  | ubuntu-18.04-minimal-aarch64-linux-4.14-stable-20180827-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1-E4f027b_3Wyeo9a0pY0dg) | [链接](https://github.com/chainsx/ubuntu64-rpi/releases/download/ubuntu-18.04-arm64/cxcore-ubuntu-18.04-minimal-aarch64-raspi3b-raspi3b-plus-stable-20180827-chainsx.img.xz) |
+| ubuntu  | ubuntu-18.04-minimal-aarch64-linux-4.14-stable-20180827-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1DGwnebLDMRtmTJf8mlWYog) 提取码:18cy  |
 
 
 默认用户：`ubuntu`
