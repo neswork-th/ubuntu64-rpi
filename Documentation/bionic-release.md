@@ -3,7 +3,7 @@
 
 ### 64位（arm64）：
 | 系统 | 名称 | 构建者 | 架构 | 适用版本 | 百度网盘链接  |
-|-----|-----|-------|------|---------|------------|-----------------|
+|-----|-----|-------|------|---------|-----------|
 | ubuntu  | ubuntu-18.04-minimal-aarch64-linux-4.14-stable-20180827-chainsx | chainsx | arm64 | rpi3b/rpi3b+ | [链接](https://pan.baidu.com/s/1DGwnebLDMRtmTJf8mlWYog) 提取码:18cy  |
 
 
